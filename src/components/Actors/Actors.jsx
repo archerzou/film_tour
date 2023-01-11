@@ -8,9 +8,9 @@ import { ArrowBack } from '@mui/icons-material';
 // use newly created useActorHook to get actor's info to the component
 
 const Actors = () => {
-  console.log('Actors');
+  const { id } = useParams();
   return (
-    <div>Actors</div>
+    <div>Actors-{id}</div>
   );
 };
 
