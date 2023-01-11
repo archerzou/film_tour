@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 // use useParams to get the actor's id
 // make a new call using redux toolkit query -> get actor details call
